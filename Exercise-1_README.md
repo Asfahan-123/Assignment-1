@@ -15,4 +15,4 @@ Assumptions:
 >>If data for a range is missing, it is assumed to be the same as the most recent past record for the same employee.
 >>The 'Compensation 1 date' and 'Compensation 2 date' columns are not used in the code since the provided input CSV file does not include these columns. If these columns are present, they can be used for more accurate date-based inheritance.
 
-The provided code demonstrates a clear and efficient approach to handle the given transformation task. It uses pandas to manage the data, making it easy to handle missing data and date ranges appropriately. The code is concise, well-documented, and should be suitable for direct implementation.
+The written code demonstrates a clear and efficient approach to handle the given transformation task. It uses pandas to manage the data, making it easy to handle missing data and date ranges appropriately. The code is concise, well-documented, and should be suitable for direct implementation.
