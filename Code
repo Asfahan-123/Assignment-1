@@ -2,7 +2,7 @@ import pandas as pd
 from datetime import datetime, timedelta
 
 # Read input CSV file
-input_file = 'employee_data.csv'
+input_file = 'input.csv'
 df = pd.read_csv(input_file)
 
 # Process DataFrame
@@ -27,5 +27,5 @@ for i in range(1, len(effective_dates)):
 df.loc[df['Review 1 Date'] == df['Review 1 Date'].max(), 'End Date'] = '2100-01-01'
 
 # Write output CSV file
-output_file = 'historical_employee_data.csv'
+output_file = 'output.csv'
 df.to_csv(output_file, index=False)
